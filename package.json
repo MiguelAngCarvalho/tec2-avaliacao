@@ -8,6 +8,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:original": "vitest run tests/original",
+    "docs:diagram": "node scripts/generate-dependency-diagram.cjs",
     "db:up": "docker compose up -d",
     "db:down": "docker compose down -v",
     "db:init": "tsx scripts/init-database.ts"
