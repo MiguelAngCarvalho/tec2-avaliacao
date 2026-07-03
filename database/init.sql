@@ -12,5 +12,7 @@ CREATE TABLE IF NOT EXISTS travel_requests (
   subtotal_in_cents INTEGER NOT NULL,
   transport_cost_in_cents INTEGER NOT NULL,
   total_amount_in_cents INTEGER NOT NULL,
+  errors_json TEXT NOT NULL,
+  warnings_json TEXT NOT NULL,
   created_at TEXT NOT NULL
 );
